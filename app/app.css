@@ -1,0 +1,92 @@
+Screen {
+    background: #1e1e1e;
+    color: white;
+}
+
+#main-area {
+    height: 100%;
+}
+
+#sidebar {
+    width: 30;
+    padding: 1;
+    border: solid gray;
+    height: 100%;
+    background: #2e2e2e;
+}
+
+#sidebar-title {
+    color: cyan;
+    padding-bottom: 1;
+}
+
+#chat-list {
+    height: 100%;
+}
+
+#chat-messages {
+    padding: 1;
+    overflow-y: auto;
+}
+
+#input {
+    padding: 1;
+    border-top: solid gray;
+}
+
+#chat-input {
+    width: 100%;
+    background: #333333;
+    color: white;
+}
+
+#hotkey-bar {
+    height: 1;
+    background: #111111;
+    color: gray;
+    padding-left: 1;
+}
+
+.msg.assistant {
+    color: lightblue;
+}
+
+.msg.user {
+    color: lightgreen;
+}
+
+.msg.system {
+    color: orange;
+}
+
+/* settings modal */
+/*#settings-modal {
+    height: 100%;
+    padding: 2;
+}
+
+#buttons-container {
+    height: 3;
+    padding-bottom: 2;
+    text-align: center;
+}
+
+#buttons-container > Button {
+    margin-left: 2;
+    margin-right: 2;
+}*/
+
+#system-prompt {
+    width: 100%;
+    height: 30%;
+}
+
+#save-btn {
+    margin: 1;
+
+}
+
+#cancel-btn {
+    margin: 1;
+}
+
